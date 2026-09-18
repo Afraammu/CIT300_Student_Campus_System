@@ -62,9 +62,18 @@ CIT300_Student_Campus_System
 | Nuha   | 23DA2-0988 |
 | Aksha  | 23DA2-1103 |
 
+## Responsibilities and Individual Contributions
+
+| Member | Responsibility                | Individual Contribution                                                                                           |
+| ------ | ----------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Afra   | Student Records + Linked List | Developed student record management and Linked List operations including add, update, delete, search and display. |
+| Aslam  | Stack + Queue                 | Developed Stack for recent system actions and Queue for managing student service requests using FIFO.             |
+| Nuha   | BST + Hashing                 | Developed Binary Search Tree operations and Hash Table-based student ID searching.                                |
+| Aksha  | Campus Graph + BFS            | Developed campus location and connection management using Graph and implemented BFS traversal.                    |
+
 ## How to Run
 
-### Step 1 – Open the project
+### Step 1 – Open the Project
 
 Open the project folder in Visual Studio Code.
 
@@ -76,17 +85,23 @@ Open the VS Code terminal and navigate to the `src` folder:
 cd src
 ```
 
-### Step 3 – Compile the Java files
+### Step 3 – Compile the Program
+
+Run the following command:
 
 ```text
 javac *.java
 ```
 
-### Step 4 – Run the application
+### Step 4 – Run the Program
+
+Run the following command:
 
 ```text
 java Main
 ```
+
+The main menu will be displayed in the terminal.
 
 ## Menu Options
 
@@ -109,54 +124,45 @@ java Main
 
 ## Input Validation
 
-The system validates:
+The system validates user inputs and handles:
 
-* Empty student IDs
 * Duplicate student IDs
-* Empty student names
-* Empty programme names
-* Marks outside the range 0–100
-* Invalid menu input
 * Missing student records
+* Invalid marks
 * Duplicate campus locations
-* Missing campus locations
-* Invalid or duplicate campus connections
+* Invalid or unavailable campus connections
+* Empty queues
+* Invalid menu choices
 
-## Algorithms
+## Testing
 
-### Binary Search Tree
+The system was tested using multiple student records, service requests, stack actions and campus locations.
 
-Students are inserted into the BST according to their Student ID.
+The following operations were successfully tested:
 
-The system supports:
-
-* Insertion
-* Searching
-* In-order traversal
-* Deletion
-
-### Hashing
-
-A Java HashMap is used to provide efficient student ID-based searching.
-
-### Graph
-
-Campus locations are represented as vertices and campus connections are represented as edges.
-
-The graph uses an adjacency list representation.
-
-### Breadth-First Search
-
-BFS is used to traverse connected campus locations starting from a selected location.
+* Adding student records
+* Updating student records
+* Deleting student records
+* Displaying students using Linked List
+* Processing service requests using Queue
+* Displaying recent actions using Stack
+* Displaying students using BST
+* Searching students using Hashing
+* Adding and removing campus locations
+* Adding and removing campus connections
+* Displaying campus connections
+* BFS campus traversal
+* Input validation
 
 ## Technologies Used
 
 * Java
-* Object-Oriented Programming
-* Data Structures and Algorithms
 * Visual Studio Code
-* Git and GitHub
+* Git
+* GitHub
 
 ## Conclusion
 
-The system demonstrates the practical application of linear data structures, trees, hashing and graphs in a university management scenario. It provides a menu-driven interface for managing student records, service requests and campus routes.
+The University Student Record and Campus Route Management System demonstrates the practical use of multiple data structures and algorithms in Java.
+
+The project combines Linked Lists, Stacks, Queues, Binary Search Trees, Hashing and Graphs to manage student information, service requests and campus routes through a menu-driven console application.
