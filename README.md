@@ -166,4 +166,4 @@ The following operations were successfully tested:
 The University Student Record and Campus Route Management System demonstrates the practical use of multiple data structures and algorithms in Java.
 
 The project combines Linked Lists, Stacks, Queues, Binary Search Trees, Hashing and Graphs to manage student information, service requests and campus routes through a menu-driven console application.
-Aslam - Data Structures Group Member
+Aslam - Stack and Queue
