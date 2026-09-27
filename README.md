@@ -10,7 +10,7 @@ The system manages university student records and campus routes using different 
 
 ## Main Features
 
-* Add, update, delete and display student records
+* Add, update,delete and display student records
 * Manage student service requests using a Queue
 * Track recent system actions using a Stack
 * Store and display students using a Binary Search Tree (BST)
