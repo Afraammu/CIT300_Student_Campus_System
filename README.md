@@ -66,7 +66,7 @@ CIT300_Student_Campus_System
 
 | Member | Responsibility                | Individual Contribution                                                                                           |
 | ------ | ----------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Afra   | Student Records & Linked List | Developed student record management and Linked List operations including add, update, delete, search and display. |
+| Afra   | Student Records & Linked List (Afra) | Developed student record management and Linked List operations including add, update, delete, search and display. |
 | Aslam  | Stack + Queue                 | Developed Stack for recent system actions and Queue for managing student service requests using FIFO.             |
 | Nuha   | BST + Hashing                 | Developed Binary Search Tree operations and Hash Table-based student ID searching.                                |
 | Aksha  | Campus Graph + BFS            | Developed campus location and connection management using Graph and implemented BFS traversal.                    |
