@@ -71,7 +71,7 @@ CIT300_Student_Campus_System
 | Nuha   | BST + Hashing                 | Developed Binary Search Tree operations and Hash Table-based student ID searching.                                |
 | Aksha  | Campus Graph + BFS            | Developed campus location and connection management using Graph and implemented BFS traversal.                    |
 
-## How to Run
+## How to run
 
 ### Step 1 – Open the Project
 
