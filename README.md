@@ -79,29 +79,23 @@ Open the project folder in Visual Studio Code.
 
 ### Step 2 – Open Terminal
 
-Open the VS Code terminal and navigate to the `src` folder:
-
-```text
-cd src
-```
+Open the VS Code terminal in the project root folder.
 
 ### Step 3 – Compile the Program
 
 Run the following command:
 
-```text
-javac *.java
-```
+javac src/*.java
 
 ### Step 4 – Run the Program
 
 Run the following command:
 
-```text
-java Main
-```
+java -cp src Main
 
 The main menu will be displayed in the terminal.
+
+
 
 ## Menu Options
 
